@@ -1,5 +1,15 @@
 package com.example.inclass_2_11;
 
+/*
+    Brady Goldsworthy z1816747
+              and
+      Justin Dupre z1835941
+
+    Portfolio 2
+    2/11/19
+ */
+
+
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

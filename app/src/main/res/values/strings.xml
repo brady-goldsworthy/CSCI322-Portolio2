@@ -7,4 +7,10 @@
     <string name="addedLabel">Added Cost:</string>
     <string name="totalLabel">Total Shipping Cost:</string>
     <string name="zeroStr">0</string>
+    <string name="helpText">This application calculates the cost of shipping an item.\n\n
+    The base cost for shipping an item is $3.00 for the first 16 ounces.\n\n
+    An additional cost of $0.50 will be added for each additional 4 ounces for\n\n\n
+    items that weigh more than 16 ounces.</string>
+    <string name="buttonText">Help</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
 </resources>

@@ -5,16 +5,18 @@ package com.example.inclass_2_11;
               and
       Justin Dupre z1835941
 
-    Portfolio 2
-    2/11/19
+    Portfolio 4
+    2/20/19
  */
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -80,6 +82,15 @@ public class MainActivity extends Activity {
 
         }
     };
+
+    public void getHelp(View v) {
+        Intent helpIntent = new Intent(MainActivity.this, HelpPage.class);
+
+        //go to HelpScreen
+        startActivity(helpIntent);
+    }
+
 }
+
 
 
